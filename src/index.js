@@ -9,3 +9,13 @@ navBtnElm.addEventListener('click', () => {
   const navElm = document.querySelector('nav');
   navElm.classList.toggle('nav-closed');
 });
+
+const navAElm = document.querySelectorAll('.navigation a');
+
+navAElm.forEach((element) => {
+  element.addEventListener('click', () => {
+    console.log('nav a');
+    const navElm = document.querySelector('nav');
+    navElm.classList.add('nav-closed');
+  });
+});
