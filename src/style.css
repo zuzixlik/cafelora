@@ -271,7 +271,9 @@ nav a:hover {
   .navigation {
     flex-direction: row;
   }
-
+  .nav-btn {
+    display: none;
+  }
   nav {
     width: initial;
   }
